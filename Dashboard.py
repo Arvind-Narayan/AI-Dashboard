@@ -116,7 +116,8 @@ if st.session_state['gen_insights2']:
                     st.write(st.session_state['ai_insights2'])
         else:
             try:
-                description = f'The data in the file contains online inflation by product category over time, indexed to {st.session_state['base_date2']}.\
+                base_date2 = st.session_state['base_date2']
+                description = f'The data in the file contains online inflation by product category over time, indexed to {base_date2}.\
                     Please generate interesting insights' 
                 st.session_state['ai_insights2'], result = agent.get_insights(df2, description)
                 with st.expander("✨AI Insights"):
