@@ -24,7 +24,7 @@ st.subheader('How to interpret the trend lines?')
 st.write("The Adobe Digital Price Index (DPI) provides a comprehensive measure of inflation in the digital economy. Here's how to interpret the key information from the DPI:")
 st.write('''**Total Inflation**: 
 - Measures the overall change in prices of goods sold online relative to the base date, which is Jan 2014 by default
-- For instance, the DPI (digital price index) 0.76 in May 2024 implies that online prices in May 2024 was 76% of the prices in Jan 2014. In other words, we saw a defaltion of 24%.
+- For instance, the DPI 0.76 in May 2024 implies that online prices in May 2024 was 76% of the prices in Jan 2014. In other words, we saw a defaltion of 24%.
          
 **Category Inflation**: 
 - Analyzes price changes across 18 different product categories, from electronics to groceries. relative to the base date, which is Jan 2014 by default
