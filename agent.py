@@ -22,7 +22,7 @@ def get_analysis(client, thread_id, assist_id, query ):
 
     text = ''
     image_data_bytes = None
-    pattern = r'\(sandbox:/mnt/data/[^\)]+\)'
+    pattern = r'\[[^\]]+\]\(.*?\.png\)'
 
     # st.write(result)
 
