@@ -49,7 +49,7 @@ if len(datasets) == 1:
 elif len(datasets) == 2:
     analyzer_assist_id = st.secrets['analyzer_cat_tot_assist_id']
 
-st.write(analyzer_assist_id)
+# st.write(analyzer_assist_id)
 
 query = st.text_area(
     "Analysis query:",
